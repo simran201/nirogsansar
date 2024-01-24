@@ -21,7 +21,7 @@ import "./styles/reset.css";
 import "./styles/common.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Benifits from "./components/Benifits";
-
+import Offers from "./components/Offers";
 function App() {
   return (
     <>
@@ -34,8 +34,10 @@ function App() {
 
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/offers" element={<Offers />} />
 
+        <Route path="/contact" element={<Contact />} />
+        
       </Routes>
       <Footer />
  

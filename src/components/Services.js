@@ -43,7 +43,7 @@ const Services = () => {
             <div className="col-lg-3 col-md-6">
               <div className="bg-grey text-center card-workarea">
                 <div className="workarea-img">
-                  <img src="/vaccine.png" alt="work-img " />
+                  <img src="/Vaccine.png" alt="work-img " />
                 </div>
                 <div className="work-content">
                   <h5>Vaccination Drive</h5>

@@ -68,16 +68,17 @@
 }
 
 .card-layout {
-    background: linear-gradient(#7b7bd0, #b7b3b3);
+    background: #FBFEE8;
+    border: 1px solid #69bb6f;
     align-items: center;
     text-align: center;
     border-radius: 20px;
     width: 400px;
+    height:250px !important;
+
     max-width: 100%;
     padding: 40px;
-
 }
-
 .card-header h4 {
     font-size: 20px;
     font-weight: 700;
@@ -235,6 +236,9 @@ padding: 40px !important;}
     .nirog-card {
         display: block !important;
     
+    }
+    .offer-left-part{
+        padding: 0;
     }
 }
 @media(max-width:992px) {

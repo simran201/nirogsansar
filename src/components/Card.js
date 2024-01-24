@@ -8,13 +8,14 @@ const Card = () => {
     const cardHTML = cardElement.outerHTML;
     // css
     const cardStyles = `.card-layout {
-            background: linear-gradient(#7b7bd0, #b7b3b3);
-            align-items: center;
+        background: #FBFEE8;
+        align-items: center;
             text-align: center;
             width:400px !important; 
 
             border-radius: 20px;
-            padding: 40px;
+            height:300px !important;
+            padding: 20px;
         
         }
         
@@ -86,19 +87,28 @@ const Card = () => {
             </div>
           </div>
           <h1 className="text-center pt-70">Download Our Card Now !</h1>
-          <div className="nirog-card">
-            <div className="col-lg-4 col-md-4 col-sm-12 p-4">
-              <div className="card-layout">
-                <div className="card-header">
-                  <h4>Nirog Sansar Health Card</h4>
-                  <h5>www.nirogsansar.com</h5>
-                </div>
-                <div className="card-footer">
-                  <div className="card-phno">
-                    <h4>8789654084,9110188345,7488679011</h4>
+          <div class="nirog-card">
+            <div
+              class="col-lg-4 col-md-4 col-sm-12 p-4 d-flex
+    "
+            >
+              <div class="d-flex">
+                <div class="card-layout">
+                  <div class="card-logo">
+                    <img src="logo (1).png" width={50} height={50} />
                   </div>
-                  <div className="card-mail">
-                    <h5> info@nirogsansar.com</h5>
+
+                  <div class="card-header">
+                    <h4>Nirog Sansar Health Card</h4>
+                    <h5>www.nirogsansar.com</h5>
+                  </div>
+                  <div class="card-footer">
+                    <div class="card-phno">
+                      <h4>8789654084,9110188345,7488679011</h4>
+                    </div>
+                    <div class="card-mail">
+                      <h5> info@nirogsansar.com</h5>
+                    </div>
                   </div>
                 </div>
               </div>

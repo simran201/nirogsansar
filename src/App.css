@@ -18,7 +18,7 @@
 }
 .work-content h5{
     font-size: 1.1rem !important;
-    
+
 }
 .read-more {
     color: #69bb6f !important;
@@ -85,4 +85,20 @@
 .banner-down-content:hover {
     background-color: #69bb6f;
 
+}
+
+/* offers.css */
+
+.offer-left-part{
+    padding-top: 100px;
+}
+.offer-main-head h1{
+    color: #086328 !important;
+}
+.offer-box h1{
+    color: white !important;
+}
+
+.offer-box .card{
+    background-color: rgb(173, 173, 232) ;
 }

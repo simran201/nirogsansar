@@ -7,11 +7,11 @@ function Navigation() {
   return (
     <>
       <Navbar expand="lg" className="navbar-area">
-        <div className="container-fluid d-flex navbar-container">
+        <nav className="container-fluid d-flex navbar-container">
           <Navbar.Brand href="#home" className="main-logo">
             <img src="/logo (1).png" height={74} width={90} alt="Logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto"/>
           <Navbar.Collapse
             id="basic-navbar-nav"
             className="navbar-collapse pl-200"
@@ -43,7 +43,7 @@ function Navigation() {
           <Link to="/Contact">
             <button className="btn btn-primary mr-10">Reach Us</button>
           </Link>
-        </div>
+        </nav>
       </Navbar>
     </>
   );
