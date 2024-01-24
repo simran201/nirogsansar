@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.content-para {
+    padding-left: 30px;
+    padding-right: 530px;
+    padding-top: 10px;
+    color: gray;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.csh {
+    color: #086328 !important;
+}
+.mission-area {
+    padding: 20px;
+    padding-bottom: 60px !important;
+}
+.work-content {
+    color: rgb(124, 116, 116) !important;
+}
+.work-content h5{
+    font-size: 1.1rem !important;
+    
+}
+.read-more {
+    color: #69bb6f !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-workarea {
+    padding: 40px 15px 15px;
+    background-color: #69bb6f;
+    border: 1px solid #4053A0;
+    border-radius: 7px;
+    height: 100% !important;
+    transition: 0.4s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading-wrap {
+    margin-bottom: 45px;
 }
 
-.App-link {
-  color: #61dafb;
+.workarea-img {
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 22px;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.read-more {
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 500;
+    color: #002147;
+}
+
+.work-card-para {
+    color: black;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.work-card-para:hover {
+    color: white;
+}
+
+.mission-area {
+    background: url(https://png.pngtree.com/back_origin_pic/03/65/73/341ab63409afde565d7f5bf58c9b6275.jpg);
+    background-size: cover;
+}
+
+.heading-wrap {
+    row-gap: 40px !important;
+}
+
+.card-workarea:hover {
+    background-color: #69bb6f;
+    color: white !important;
+    border: 0;
+}
+
+.banner-down-content:hover {
+    background-color: #69bb6f;
+
 }
