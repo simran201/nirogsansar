@@ -95,9 +95,8 @@
 .whatsapp-icon {
     margin-top: 16px;
 }
-.whatsapp_float:hover{
     
-}
+
 /* for mobile */
 @media screen and (max-width: 767px) {
     .whatsapp-icon {

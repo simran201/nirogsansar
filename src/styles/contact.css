@@ -96,3 +96,13 @@ img {
 .bg-overlay {
     background: rgba(0, 33, 71, 0.9);
 }
+
+.contact-area .btn-secondary{
+    background-color: #193759;
+    border: 0;
+
+}
+.contact-area .btn-secondary:hover{
+    background-color: #69bb6f;
+
+}

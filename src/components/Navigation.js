@@ -11,7 +11,7 @@ function Navigation() {
           <Navbar.Brand href="#home" className="main-logo">
             <img src="/logo (1).png" height={74} width={90} alt="Logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto"/>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
           <Navbar.Collapse
             id="basic-navbar-nav"
             className="navbar-collapse pl-200"
